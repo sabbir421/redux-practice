@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Todos from './Components/Todos';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Todos/>
     </div>
   );
 }
 
 export default App;
+// intall package
+// 1. variable deaclar
+// 2. create async action
+// 3. create reducer
+// 4. create store
+// 5. provide store
+// 6. useSelector
+// 7. style
